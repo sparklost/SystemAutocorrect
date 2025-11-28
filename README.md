@@ -25,7 +25,7 @@ config.ini is in /etc/autocorrect/config.ini
 #### Linux - Service
 This will install dependencies and configure script as service that runs at startup.  
 ```sh
-git clone https://github.com/mzivic7/SystemAutocorrect.git
+git clone https://github.com/sparklost/SystemAutocorrect.git
 cd SystemAutocorrect
 sudo pip install evdev
 # if environment is externally managed:
@@ -37,7 +37,7 @@ sudo install.sh
 #### Linux - Manual
 If you don't want it to be installed as service:  
 ```sh
-git clone https://github.com/mzivic7/SystemAutocorrect.git
+git clone https://github.com/sparklost/SystemAutocorrect.git
 cd SystemAutocorrect
 sudo pip install evdev
 # if environment is externally managed:
